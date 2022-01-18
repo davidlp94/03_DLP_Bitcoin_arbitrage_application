@@ -115,7 +115,7 @@ coinbase_sliced.loc['2018-01-01' : '2018-02-01'].plot(legend=True, figsize=(15, 
 ```
 ![Bitstamp vs. Coinbase BTC Value - January 2018](https://user-images.githubusercontent.com/96163075/149984440-5adc08de-a621-4b3f-8a9f-91415682ac25.png)
 
-Previewing the chart above, there are some arbitrage opportunities where the price of BTC is valued more on the Bitstamp exchnage on January 28th, 2018. We can use the loc function to take a closer look at this date.
+Previewing the chart above, there are some arbitrage opportunities where the price of BTC is valued more on the Bitstamp exchange on January 28th, 2018. We can use the loc function to take a closer look at this date.
 ```
 bitstamp_sliced.loc['2018-01-28'].plot(legend=True, figsize=(15, 7), title='Bitstamp vs. Coinbase BTC Value - January 28th, 2018', color='green', label='BTC_BS')
 coinbase_sliced.loc['2018-01-28'].plot(legend=True, figsize=(15, 7), color='blue', label='BTC_CB')
