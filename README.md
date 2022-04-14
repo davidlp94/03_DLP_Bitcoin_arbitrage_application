@@ -1,6 +1,8 @@
 # Bitcoin_arbitrage_application
 Welcome to my Bitcoin Arbitrage application using Python language, Pandas modules and JupyterLab that uses historical data on Bitcoin and arbitrage opportunities to calculate theoretical trade profits. This application can be used on any assset that exist on any pair of exchanges by replacing the (2) .csv files in the /Resources folder and changing variable names and dates within the code. In this application, we will examine the the price of Bitcoin in USD listed on the Bitstamp and Coinbase exchnage and calulate thoeretical arbitrage trade opportunities that have a minimum return of greater than 1% threshold.
 
+Live application link: https://github.com/davidlp94/03_DLP_Bitcoin_arbitrage_application/blob/main/crypto_arbitrage.ipynb
+
 ---
 
 ## Techologies
